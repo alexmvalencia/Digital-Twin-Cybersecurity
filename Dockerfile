@@ -3,31 +3,17 @@ FROM ubuntu:24.04
 
 # Set environment variables to avoid interactive prompts during apt-get install
 ENV DEBIAN_FRONTEND=noninteractive
-
-RUN locale && \
-    apt update && apt install locales && \
-    locale-gen en_US en_US.UTF-8 && \
-    update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
-
 ENV LANG=en_US.UTF-8
 
-# Install basic dependencies
-#RUN apt-get update && apt-get install -y \
-#    lsb-release \
-#    gnupg2 \
-#    curl \
-#    ca-certificates \
-#    locales \
-#    software-properties-common \
-#    python3-pip \
-#    python3-colcon-common-extensions \
-#    git \
-#    vim \
+RUN locale && \
+    apt update && apt install -y locales && \
+    locale-gen en_US.UTF-8 && \
+    update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 
 # Enable Required Repositories
-RUN apt install software-properties-common -y && add-apt-repository universe
+RUN apt install -y software-properties-common && add-apt-repository universe
 
-RUN apt update && apt install curl -y
+RUN apt update && apt install -y curl wget
 
 # Add ROS 2 repository
 RUN curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
@@ -35,18 +21,34 @@ RUN curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o 
 RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | tee /etc/apt/sources.list.d/ros2.list > /dev/null
 
 # Install the dev tools
-RUN apt update && apt install ros-dev-tools -y
+RUN apt update && apt install -y ros-dev-tools
 
 # Install ROS 2 Jazzy Jalisco desktop version
-RUN apt install ros-jazzy-desktop -y
+RUN apt install -y ros-jazzy-desktop
 
 # Install Gazebo Harmonic
 RUN curl https://packages.osrfoundation.org/gazebo.gpg --output /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg && \
     echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null && \
     apt update && apt install -y gz-harmonic
 
-# Install Python packages for cybersecurity testing
-#RUN pip3 install numpy pandas matplotlib
+# Install dependencies to ensure Gazebo works correctly
+#RUN apt update && apt install -y \
+#    gazebo11 \
+#    libgazebo11-dev \
+#    gazebo11-common \
+#    gazebo11-plugin-base
+
+# Download Gazebo default models (ground_plane, sun)
+#RUN mkdir -p /usr/share/gazebo-11/models && \
+#    wget -q -O /tmp/models.tar.gz https://github.com/osrf/gazebo_models/archive/main.tar.gz && \
+#    tar -xzf /tmp/models.tar.gz -C /usr/share/gazebo-11/models --strip-components=1 && \
+#    rm /tmp/models.tar.gz
+
+# Set Gazebo environment variables
+#ENV GAZEBO_MODEL_PATH=/usr/share/gazebo-11/models
+#ENV GAZEBO_RESOURCE_PATH=/usr/share/gazebo-11
+#ENV GAZEBO_PLUGIN_PATH=/usr/lib/x86_64-linux-gnu/gazebo-11/plugins
+#ENV GAZEBO_MODEL_DATABASE_URI=http://models.gazebosim.org
 
 # Create a ROS workspace and set up the source folder
 WORKDIR /ros_ws
