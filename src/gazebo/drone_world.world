@@ -2,6 +2,14 @@
 <sdf version="1.6">
   <world name="quad_sim">
     <!-- Include the ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Include the sun -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
 
     <!-- Spawn a basic quadcopter -->
     <model name="quadcopter">
