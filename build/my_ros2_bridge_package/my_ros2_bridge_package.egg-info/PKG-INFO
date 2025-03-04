@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: my-ros2-bridge-package
-Version: 0.0.0
-Summary: A ROS 2 bridge package for digital twin communication
-Maintainer: ajval
-Maintainer-email: alexmvalencia@vt.edu
-License: MIT

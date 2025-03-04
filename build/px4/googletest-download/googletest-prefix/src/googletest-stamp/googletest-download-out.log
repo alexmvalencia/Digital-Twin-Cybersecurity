@@ -1,0 +1,14 @@
+-- Downloading...
+   dst='/home/ajval/Digital-Twin-Cybersecurity/build/px4/googletest-download/googletest-prefix/src/b796f7d44681514f58a683a3a71ff17c94edb0c1.zip'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/google/googletest/archive/b796f7d44681514f58a683a3a71ff17c94edb0c1.zip'
+-- Downloading... done
+-- extracting...
+     src='/home/ajval/Digital-Twin-Cybersecurity/build/px4/googletest-download/googletest-prefix/src/b796f7d44681514f58a683a3a71ff17c94edb0c1.zip'
+     dst='/home/ajval/Digital-Twin-Cybersecurity/build/px4/googletest-src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done

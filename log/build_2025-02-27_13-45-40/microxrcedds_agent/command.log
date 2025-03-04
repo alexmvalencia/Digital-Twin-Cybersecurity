@@ -1,0 +1,4 @@
+Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/build/microxrcedds_agent': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ajval/Digital-Twin-Cybersecurity/build/microxrcedds_agent -- -j22 -l22
+Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/build/microxrcedds_agent' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ajval/Digital-Twin-Cybersecurity/build/microxrcedds_agent -- -j22 -l22
+Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/build/microxrcedds_agent': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ajval/Digital-Twin-Cybersecurity/build/microxrcedds_agent
+Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/build/microxrcedds_agent' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ajval/Digital-Twin-Cybersecurity/build/microxrcedds_agent

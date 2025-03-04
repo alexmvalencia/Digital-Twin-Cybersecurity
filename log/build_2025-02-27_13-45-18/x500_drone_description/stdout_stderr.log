@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ajval/Digital-Twin-Cybersecurity/build/x500_drone_description
+-- Install configuration: ""
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/launch
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/launch/x500_drone_display.launch.py
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/description
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/description/x500.urdf.xacro
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/description/materials.xacro
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/description/x500.description.xacro
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/meshes
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/meshes/propeller_cw.dae
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/meshes/propeller_ccw.dae
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/meshes/x500.stl
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/rviz
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/rviz/x500_drone.rviz
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/ament_index/resource_index/package_run_dependencies/x500_drone_description
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/ament_index/resource_index/parent_prefix_path/x500_drone_description
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/environment/ament_prefix_path.sh
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/environment/ament_prefix_path.dsv
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/environment/path.sh
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/environment/path.dsv
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/local_setup.bash
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/local_setup.sh
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/local_setup.zsh
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/local_setup.dsv
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/package.dsv
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/ament_index/resource_index/packages/x500_drone_description
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/cmake/x500_drone_descriptionConfig.cmake
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/cmake/x500_drone_descriptionConfig-version.cmake
+-- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/package.xml

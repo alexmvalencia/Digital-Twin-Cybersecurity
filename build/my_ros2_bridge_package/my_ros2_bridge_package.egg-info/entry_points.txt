@@ -1,2 +1,0 @@
-[console_scripts]
-ros2_bridge = my_ros2_bridge_package.ros2_bridge:main

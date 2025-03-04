@@ -1,0 +1,55 @@
+[0.576s] Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4-offboard': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages:/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_offboard build --build-base /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build install --record /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/install.log --single-version-externally-managed install_data
+[0.746s] running egg_info
+[0.746s] creating ../../../build/px4_offboard/px4_offboard.egg-info
+[0.758s] writing ../../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[0.758s] writing dependency_links to ../../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[0.758s] writing entry points to ../../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[0.758s] writing requirements to ../../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[0.758s] writing top-level names to ../../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[0.758s] writing manifest file '../../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.781s] reading manifest file '../../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.781s] adding license file 'LICENSE'
+[0.781s] writing manifest file '../../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.781s] running build
+[0.781s] running build_py
+[0.782s] creating /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build
+[0.782s] creating /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build/lib
+[0.782s] creating /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build/lib/px4_offboard
+[0.782s] copying px4_offboard/offboard_control.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build/lib/px4_offboard
+[0.782s] copying px4_offboard/__init__.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build/lib/px4_offboard
+[0.782s] copying px4_offboard/tf_publisher.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build/lib/px4_offboard
+[0.782s] copying px4_offboard/rotor_joint_state_publisher.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build/lib/px4_offboard
+[0.782s] copying px4_offboard/visualizer.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build/lib/px4_offboard
+[0.782s] running install
+[0.786s] running install_lib
+[0.798s] creating /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages/px4_offboard
+[0.798s] copying /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build/lib/px4_offboard/offboard_control.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages/px4_offboard
+[0.798s] copying /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build/lib/px4_offboard/__init__.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages/px4_offboard
+[0.798s] copying /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build/lib/px4_offboard/tf_publisher.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages/px4_offboard
+[0.798s] copying /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build/lib/px4_offboard/rotor_joint_state_publisher.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages/px4_offboard
+[0.798s] copying /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build/lib/px4_offboard/visualizer.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages/px4_offboard
+[0.798s] byte-compiling /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages/px4_offboard/offboard_control.py to offboard_control.cpython-312.pyc
+[0.799s] byte-compiling /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages/px4_offboard/__init__.py to __init__.cpython-312.pyc
+[0.799s] byte-compiling /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages/px4_offboard/tf_publisher.py to tf_publisher.cpython-312.pyc
+[0.800s] byte-compiling /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages/px4_offboard/rotor_joint_state_publisher.py to rotor_joint_state_publisher.cpython-312.pyc
+[0.800s] byte-compiling /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages/px4_offboard/visualizer.py to visualizer.cpython-312.pyc
+[0.801s] running install_data
+[0.801s] creating /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/ament_index
+[0.801s] creating /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/ament_index/resource_index
+[0.801s] creating /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/ament_index/resource_index/packages
+[0.801s] copying resource/px4_offboard -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/ament_index/resource_index/packages
+[0.801s] copying resource/visualize.rviz -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/ament_index/resource_index/packages
+[0.801s] copying package.xml -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard
+[0.801s] copying launch/offboard_position_control.launch.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard
+[0.801s] copying launch/visualize.launch.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard
+[0.801s] copying launch/offboard_hardware_position_control.launch.py -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard
+[0.802s] copying resource/visualize.rviz -> /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard
+[0.802s] running install_egg_info
+[0.814s] Copying ../../../build/px4_offboard/px4_offboard.egg-info to /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages/px4_offboard-0.0.0-py3.12.egg-info
+[0.814s] running install_scripts
+[0.895s] Installing offboard_control script to /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/px4_offboard
+[0.895s] Installing rotor_joint_state_publisher script to /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/px4_offboard
+[0.895s] Installing tf_publisher script to /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/px4_offboard
+[0.895s] Installing visualizer script to /home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/px4_offboard
+[0.895s] writing list of installed files to '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/install.log'
+[0.919s] Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4-offboard' returned '0': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages:/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_offboard build --build-base /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build install --record /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/install.log --single-version-externally-managed install_data

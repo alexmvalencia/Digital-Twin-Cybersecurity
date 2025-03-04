@@ -1,0 +1,369 @@
+[0.150s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.150s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b24e75a9a30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b24e7c76000>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b24e7c76000>>, mixin_verb=('build',))
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.193s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ajval/Digital-Twin-Cybersecurity/x500_model'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4-offboard) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4-offboard) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4-offboard) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4-offboard) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4-offboard) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4-offboard) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4-offboard) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4-offboard) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4-offboard) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/x500-Drone-Twin/px4-offboard' with type 'ros.ament_python' and name 'px4_offboard'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_msgs) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_msgs) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_msgs) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_msgs) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_msgs) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_msgs) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_msgs) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_msgs) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/x500-Drone-Twin/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_ros_com) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_ros_com) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_ros_com) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_ros_com) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_ros_com) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_ros_com) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_ros_com) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/px4_ros_com) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/x500-Drone-Twin/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/x500_drone_description) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/x500_drone_description) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/x500_drone_description) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/x500_drone_description) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/x500_drone_description) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/x500_drone_description) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/x500_drone_description) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/x500_drone_description) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/x500-Drone-Twin/x500_drone_description) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/x500-Drone-Twin/x500_drone_description' with type 'ros.ament_cmake' and name 'x500_drone_description'
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ajval/px4_ros_com_ros2/install
+[0.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 325 installed packages in /opt/ros/jazzy
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.262s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs', 'merge_install': False, 'path': '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'x500_drone_description' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'x500_drone_description' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'x500_drone_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'x500_drone_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'x500_drone_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'x500_drone_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'x500_drone_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'x500_drone_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'x500_drone_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.262s] DEBUG:colcon.colcon_core.verb:Building package 'x500_drone_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/x500_drone_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description', 'merge_install': False, 'path': '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/x500_drone_description', 'symlink_install': False, 'test_result_base': None}
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.263s] DEBUG:colcon.colcon_core.verb:Building package 'px4_offboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard', 'merge_install': False, 'path': '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4-offboard', 'symlink_install': False, 'test_result_base': None}
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.263s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com', 'merge_install': False, 'path': '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.263s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.264s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4_msgs' with build type 'ament_cmake'
+[0.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4_msgs'
+[0.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/x500_drone_description' with build type 'ament_cmake'
+[0.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/x500_drone_description'
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/x500_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/x500_drone_description -DCMAKE_INSTALL_PREFIX=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description
+[0.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/x500_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/x500_drone_description -DCMAKE_INSTALL_PREFIX=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description
+[0.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/x500_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/x500_drone_description -- -j22 -l22
+[0.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/x500_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/x500_drone_description -- -j22 -l22
+[0.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/x500_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/x500_drone_description
+[0.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(x500_drone_description)
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/x500_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/x500_drone_description
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description' for CMake module files
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description' for CMake config files
+[0.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('x500_drone_description', 'cmake_prefix_path')
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/hook/cmake_prefix_path.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/hook/cmake_prefix_path.dsv'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/hook/cmake_prefix_path.sh'
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/bin'
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/lib/pkgconfig/x500_drone_description.pc'
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/lib/python3.12/site-packages'
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/bin'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/package.ps1'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/package.dsv'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/package.sh'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/package.bash'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/package.zsh'
+[0.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/colcon-core/packages/x500_drone_description)
+[0.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(x500_drone_description)
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description' for CMake module files
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description' for CMake config files
+[0.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('x500_drone_description', 'cmake_prefix_path')
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/hook/cmake_prefix_path.ps1'
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/hook/cmake_prefix_path.dsv'
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/hook/cmake_prefix_path.sh'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/bin'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/lib/pkgconfig/x500_drone_description.pc'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/lib/python3.12/site-packages'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/bin'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/package.ps1'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/package.dsv'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/package.sh'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/package.bash'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/x500_drone_description/package.zsh'
+[0.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/x500_drone_description/share/colcon-core/packages/x500_drone_description)
+[3.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs
+[3.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_msgs -- -j22 -l22
+[125.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_msgs -- -j22 -l22
+[125.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_msgs
+[126.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[126.273s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs' for CMake module files
+[126.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_msgs
+[126.274s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs' for CMake config files
+[126.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[126.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[126.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[126.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[126.275s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib'
+[126.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[126.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[126.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[126.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[126.276s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/bin'
+[126.276s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[126.276s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/python3.12/site-packages'
+[126.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[126.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[126.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[126.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[126.277s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/bin'
+[126.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/package.ps1'
+[126.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/package.dsv'
+[126.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/package.sh'
+[126.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/package.bash'
+[126.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/package.zsh'
+[126.278s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[126.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[126.278s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs' for CMake module files
+[126.278s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs' for CMake config files
+[126.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[126.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[126.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[126.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[126.279s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib'
+[126.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[126.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[126.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[126.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[126.280s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/bin'
+[126.280s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[126.280s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/python3.12/site-packages'
+[126.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[126.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[126.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[126.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[126.281s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/bin'
+[126.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/package.ps1'
+[126.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/package.dsv'
+[126.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/package.sh'
+[126.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/package.bash'
+[126.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/px4_msgs/package.zsh'
+[126.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[126.285s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4-offboard' with build type 'ament_python'
+[126.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'ament_prefix_path')
+[126.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.ps1'
+[126.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.dsv'
+[126.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.sh'
+[126.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[126.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[126.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4_ros_com' with build type 'ament_cmake'
+[126.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4_ros_com'
+[126.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[126.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[126.423s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4-offboard'
+[126.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[126.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[126.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:/home/ajval/px4_ros_com_ros2/install/px4_ros_com:/home/ajval/px4_ros_com_ros2/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com
+[126.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4-offboard': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages:/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_offboard build --build-base /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build install --record /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/install.log --single-version-externally-managed install_data
+[127.204s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard' for CMake module files
+[127.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4-offboard' returned '0': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages:/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_offboard build --build-base /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/build install --record /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_offboard/install.log --single-version-externally-managed install_data
+[127.205s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard' for CMake config files
+[127.206s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib'
+[127.206s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/bin'
+[127.206s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/pkgconfig/px4_offboard.pc'
+[127.206s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/lib/python3.12/site-packages'
+[127.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'pythonpath')
+[127.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard/hook/pythonpath.ps1'
+[127.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard/hook/pythonpath.dsv'
+[127.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard/hook/pythonpath.sh'
+[127.207s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/bin'
+[127.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_offboard)
+[127.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard/package.ps1'
+[127.208s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard/package.dsv'
+[127.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard/package.sh'
+[127.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard/package.bash'
+[127.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/px4_offboard/package.zsh'
+[127.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_offboard/share/colcon-core/packages/px4_offboard)
+[127.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:/home/ajval/px4_ros_com_ros2/install/px4_ros_com:/home/ajval/px4_ros_com_ros2/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ajval/Digital-Twin-Cybersecurity/x500_model/src/x500-Drone-Twin/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com
+[127.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:/home/ajval/px4_ros_com_ros2/install/px4_ros_com:/home/ajval/px4_ros_com_ros2/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_ros_com -- -j22 -l22
+[133.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:/home/ajval/px4_ros_com_ros2/install/px4_ros_com:/home/ajval/px4_ros_com_ros2/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_ros_com -- -j22 -l22
+[133.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:/home/ajval/px4_ros_com_ros2/install/px4_ros_com:/home/ajval/px4_ros_com_ros2/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_ros_com
+[134.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[134.034s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com' for CMake module files
+[134.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs:/home/ajval/px4_ros_com_ros2/install/px4_ros_com:/home/ajval/px4_ros_com_ros2/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ajval/Digital-Twin-Cybersecurity/x500_model/build/px4_ros_com
+[134.035s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com' for CMake config files
+[134.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[134.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[134.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[134.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[134.036s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/lib'
+[134.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[134.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[134.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[134.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[134.036s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/bin'
+[134.036s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[134.036s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/lib/python3.12/site-packages'
+[134.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'pythonpath')
+[134.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.ps1'
+[134.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.dsv'
+[134.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.sh'
+[134.037s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/bin'
+[134.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[134.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[134.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/package.sh'
+[134.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/package.bash'
+[134.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[134.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[134.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[134.039s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com' for CMake module files
+[134.039s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com' for CMake config files
+[134.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[134.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[134.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[134.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[134.040s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/lib'
+[134.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[134.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[134.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[134.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[134.041s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/bin'
+[134.041s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[134.041s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/lib/python3.12/site-packages'
+[134.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'pythonpath')
+[134.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.ps1'
+[134.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.dsv'
+[134.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.sh'
+[134.042s] Level 1:colcon.colcon_core.environment:checking '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/bin'
+[134.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[134.042s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[134.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/package.sh'
+[134.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/package.bash'
+[134.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[134.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[134.043s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[134.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[134.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[134.044s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[134.051s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[134.051s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[134.051s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[134.066s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[134.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/local_setup.ps1'
+[134.067s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/_local_setup_util_ps1.py'
+[134.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/setup.ps1'
+[134.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/local_setup.sh'
+[134.069s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/_local_setup_util_sh.py'
+[134.069s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/setup.sh'
+[134.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/local_setup.bash'
+[134.070s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/setup.bash'
+[134.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/local_setup.zsh'
+[134.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajval/Digital-Twin-Cybersecurity/x500_model/install/setup.zsh'

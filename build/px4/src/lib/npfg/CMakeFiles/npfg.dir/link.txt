@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnpfg.a CMakeFiles/npfg.dir/npfg.cpp.o
+/usr/bin/ranlib libnpfg.a

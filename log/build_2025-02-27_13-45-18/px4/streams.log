@@ -1,0 +1,34 @@
+[0.231s] Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/build/px4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ajval/Digital-Twin-Cybersecurity/PX4-Autopilot -DCMAKE_INSTALL_PREFIX=/home/ajval/Digital-Twin-Cybersecurity/install/px4
+[0.288s] -- PX4_GIT_TAG: v1.16.0-alpha2-290-g8d296a50f9
+[0.289s] [33mCMake Warning (dev) at CMakeLists.txt:176 (find_package):
+[0.290s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.290s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.290s]   the cmake_policy command to set the policy and suppress this warning.
+[0.290s] 
+[0.290s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.290s] [0m
+[0.321s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.12.3", minimum required is "3") 
+[0.361s] -- PX4 config file: /home/ajval/Digital-Twin-Cybersecurity/PX4-Autopilot/boards/px4/ros2/default.px4board
+[0.602s] -- PLATFORM ros2
+[0.603s] -- ROMFSROOT px4fmu_common
+[0.607s] -- ROOT_PATH /fs/microsd
+[0.607s] -- PARAM_FILE /fs/mtd_params
+[0.626s] -- PX4 config: px4_ros2_default
+[0.626s] -- PX4 platform: ros2
+[0.710s] -- The CXX compiler identification is GNU 13.3.0
+[0.746s] -- Detecting CXX compiler ABI info
+[0.905s] -- Detecting CXX compiler ABI info - done
+[0.923s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.923s] -- Detecting CXX compile features
+[0.924s] -- Detecting CXX compile features - done
+[0.928s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.115s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.244s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.330s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.348s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.573s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.573s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.733s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.800s] Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/build/px4' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ajval/Digital-Twin-Cybersecurity/PX4-Autopilot -DCMAKE_INSTALL_PREFIX=/home/ajval/Digital-Twin-Cybersecurity/install/px4

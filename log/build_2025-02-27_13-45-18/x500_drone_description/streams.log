@@ -1,0 +1,51 @@
+[0.226s] Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/build/x500_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ajval/Digital-Twin-Cybersecurity/src/x500-Drone-Twin/x500_drone_description -DCMAKE_INSTALL_PREFIX=/home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description
+[0.326s] -- The C compiler identification is GNU 13.3.0
+[0.441s] -- The CXX compiler identification is GNU 13.3.0
+[0.470s] -- Detecting C compiler ABI info
+[0.602s] -- Detecting C compiler ABI info - done
+[0.610s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.610s] -- Detecting C compile features
+[0.611s] -- Detecting C compile features - done
+[0.622s] -- Detecting CXX compiler ABI info
+[0.793s] -- Detecting CXX compiler ABI info - done
+[0.806s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.807s] -- Detecting CXX compile features
+[0.807s] -- Detecting CXX compile features - done
+[0.812s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.012s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.251s] -- Configuring done (1.0s)
+[1.255s] -- Generating done (0.0s)
+[1.257s] -- Build files have been written to: /home/ajval/Digital-Twin-Cybersecurity/build/x500_drone_description
+[1.267s] Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/build/x500_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ajval/Digital-Twin-Cybersecurity/src/x500-Drone-Twin/x500_drone_description -DCMAKE_INSTALL_PREFIX=/home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description
+[1.268s] Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/build/x500_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ajval/Digital-Twin-Cybersecurity/build/x500_drone_description -- -j22 -l22
+[1.331s] Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/build/x500_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ajval/Digital-Twin-Cybersecurity/build/x500_drone_description -- -j22 -l22
+[1.342s] Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/build/x500_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ajval/Digital-Twin-Cybersecurity/build/x500_drone_description
+[1.357s] -- Install configuration: ""
+[1.357s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/launch
+[1.357s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/launch/x500_drone_display.launch.py
+[1.358s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/description
+[1.358s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/description/x500.urdf.xacro
+[1.358s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/description/materials.xacro
+[1.358s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/description/x500.description.xacro
+[1.358s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/meshes
+[1.359s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/meshes/propeller_cw.dae
+[1.359s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/meshes/propeller_ccw.dae
+[1.359s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/meshes/x500.stl
+[1.361s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/rviz
+[1.362s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/rviz/x500_drone.rviz
+[1.362s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/ament_index/resource_index/package_run_dependencies/x500_drone_description
+[1.362s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/ament_index/resource_index/parent_prefix_path/x500_drone_description
+[1.362s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/environment/ament_prefix_path.sh
+[1.362s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/environment/ament_prefix_path.dsv
+[1.363s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/environment/path.sh
+[1.363s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/environment/path.dsv
+[1.363s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/local_setup.bash
+[1.364s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/local_setup.sh
+[1.364s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/local_setup.zsh
+[1.364s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/local_setup.dsv
+[1.364s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/package.dsv
+[1.365s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/ament_index/resource_index/packages/x500_drone_description
+[1.367s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/cmake/x500_drone_descriptionConfig.cmake
+[1.367s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/cmake/x500_drone_descriptionConfig-version.cmake
+[1.368s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/install/x500_drone_description/share/x500_drone_description/package.xml
+[1.369s] Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/build/x500_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ajval/Digital-Twin-Cybersecurity/build/x500_drone_description

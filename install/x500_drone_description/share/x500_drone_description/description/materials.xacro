@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="px4_drone_materials">
+     <!-- Define Materials -->
+  <material name="DarkGrey">
+    <color rgba="0.2 0.2 0.2 1"/> <!-- Dark Grey -->
+  </material>
+  <material name="Blue">
+    <color rgba="0 0 1 1"/> <!-- Blue -->
+  </material>
+  <material name="Red">
+    <color rgba="1 0 0 1"/> <!-- Red -->
+  </material>
+</robot>
