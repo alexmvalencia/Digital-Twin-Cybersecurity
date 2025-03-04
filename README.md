@@ -7,6 +7,8 @@ ROS2 Packages for simulating the digital twin for Holybro PX4 Quad Drone for cyb
 - ROS2 Jazzy
 - Gazebo Harmonic
 
+![px4 drone rviz](./images/px4_drone_rviz.png)
+
 ## Usage
 To visualize the drone in rviz without the connection
 ```
