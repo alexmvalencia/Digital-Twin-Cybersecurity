@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="px4_drone">
+
+  <!-- Base Link -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.449"/>
+      <inertia ixx="0.020" ixy="0" ixz="0" iyy="0.02268" iyz="0" izz="0.03254"/>
+    </inertial>
+    <visual name="base_link_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://x500_drone_description/meshes/x500.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="DarkGrey"/>
+    </visual>
+    <collision name="base_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.416 0.416 0.433"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- IMU Link -->
+  <link name="imu_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.015"/>
+      <inertia ixx="1e-05" ixy="0" ixz="0" iyy="1e-05" iyz="0" izz="1e-05"/>
+    </inertial>
+  </link>
+
+  <!-- IMU Joint -->
+  <joint name="imu_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="0" upper="0" effort="0" velocity="0"/>
+  </joint>
+
+  <!-- Rotor 0 -->
+  <link name="rotor_0">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.012392"/>
+      <inertia ixx="8.4951e-7" ixy="4.04347e-7" ixz="0" iyy="0.00004116" iyz="0" izz="0.00004180"/>
+    </inertial>
+    <visual name="rotor_0_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://x500_drone_description/meshes/propeller_ccw.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="Blue"/>
+    </visual>
+    <collision name="rotor_0_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.017" radius="0.128"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="rotor_0_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rotor_0"/>
+    <origin xyz="0.186463 -0.17561 0.065374" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- Rotor 1 -->
+  <link name="rotor_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.012392"/>
+      <inertia ixx="8.4951e-7" ixy="4.04347e-7" ixz="0" iyy="0.00004116" iyz="0" izz="0.00004180"/>
+    </inertial>
+    <visual name="rotor_1_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://x500_drone_description/meshes/propeller_ccw.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="Red"/>
+    </visual>
+    <collision name="rotor_1_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.017" radius="0.128"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="rotor_1_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rotor_1"/>
+    <origin xyz="-0.163577 0.174408 0.065374" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- Rotor 2 -->
+  <link name="rotor_2">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.012392"/>
+      <inertia ixx="8.4951e-7" ixy="-4.04347e-7" ixz="0" iyy="0.00004116" iyz="0" izz="0.00004180"/>
+    </inertial>
+    <visual name="rotor_2_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://x500_drone_description/meshes/propeller_cw.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="Blue"/>
+    </visual>
+    <collision name="rotor_2_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.017" radius="0.128"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="rotor_2_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rotor_2"/>
+    <origin xyz="0.186463 0.174408 0.065374" rpy="0 0 0"/>
+    <axis xyz="0 0 -1"/>
+  </joint>
+
+  <!-- Rotor 3 -->
+  <link name="rotor_3">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.012392"/>
+      <inertia ixx="8.4951e-7" ixy="-4.04347e-7" ixz="0" iyy="0.00004116" iyz="0" izz="0.00004180"/>
+    </inertial>
+    <visual name="rotor_3_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://x500_drone_description/meshes/propeller_cw.dae" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="Red"/>
+    </visual>
+    <collision name="rotor_3_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.017" radius="0.128"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="rotor_3_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rotor_3"/>
+    <origin xyz="-0.163577 -0.17561 0.065374" rpy="0 0 0"/>
+    <axis xyz="0 0 -1"/>
+  </joint>
+
+</robot>

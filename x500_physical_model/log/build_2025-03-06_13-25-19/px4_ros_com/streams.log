@@ -1,0 +1,142 @@
+[0.129s] Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs:/home/ajval/px4_ros_com_ros2/install/px4_ros_com:/home/ajval/px4_ros_com_ros2/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com
+[0.176s] -- The C compiler identification is GNU 13.3.0
+[0.219s] -- The CXX compiler identification is GNU 13.3.0
+[0.232s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.309s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.309s] -- Detecting C compile features
+[0.309s] -- Detecting C compile features - done
+[0.319s] -- Detecting CXX compiler ABI info
+[0.397s] -- Detecting CXX compiler ABI info - done
+[0.403s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.404s] -- Detecting CXX compile features
+[0.404s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.519s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.598s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.624s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.633s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.674s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.681s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.683s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.706s] -- Found px4_msgs: 2.0.1 (/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/share/px4_msgs/cmake)
+[0.727s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.763s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.768s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.846s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.861s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.879s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.941s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.959s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.966s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.058s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.060s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.060s] -- Configured cppcheck include dirs: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/src/px4_ros_com/include/px4_ros_com>
+[1.061s] -- Configured cppcheck exclude dirs and/or files: 
+[1.062s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.062s] -- Configured cpplint exclude dirs and/or files: 
+[1.063s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.063s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.064s] -- Added test 'lint_cmake' to check CMake code style
+[1.064s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.066s] -- Added test 'uncrustify' to check C / C++ code style
+[1.066s] -- Configured uncrustify additional arguments: 
+[1.067s] -- Added test 'xmllint' to check XML markup files
+[1.068s] -- Configuring done (0.9s)
+[1.083s] -- Generating done (0.0s)
+[1.088s] -- Build files have been written to: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/build/px4_ros_com
+[1.095s] Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs:/home/ajval/px4_ros_com_ros2/install/px4_ros_com:/home/ajval/px4_ros_com_ros2/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com
+[1.096s] Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs:/home/ajval/px4_ros_com_ros2/install/px4_ros_com:/home/ajval/px4_ros_com_ros2/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/build/px4_ros_com -- -j22 -l22
+[1.138s] [  8%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[1.141s] [ 16%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[1.142s] [ 25%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[1.142s] [ 33%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[1.143s] [ 33%] Built target ament_cmake_python_copy_px4_ros_com
+[1.143s] [ 41%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[1.144s] [ 50%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[1.283s] running egg_info
+[1.284s] creating px4_ros_com.egg-info
+[1.294s] writing px4_ros_com.egg-info/PKG-INFO
+[1.294s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[1.295s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[1.295s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.328s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.328s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.352s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[3.983s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[4.144s] [ 58%] Built target debug_vect_advertiser
+[5.085s] [ 66%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[5.114s] [ 75%] [32m[1mLinking CXX executable offboard_control[0m
+[5.234s] [ 75%] Built target offboard_control_srv
+[5.274s] [ 75%] Built target offboard_control
+[5.641s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[5.781s] [ 83%] Built target frame_transforms
+[5.844s] [ 91%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[5.969s] [100%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[6.013s] [100%] Built target sensor_combined_listener
+[6.140s] [100%] Built target vehicle_gps_position_listener
+[6.151s] Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs:/home/ajval/px4_ros_com_ros2/install/px4_ros_com:/home/ajval/px4_ros_com_ros2/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/build/px4_ros_com -- -j22 -l22
+[6.152s] Invoking command in '/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs:/home/ajval/px4_ros_com_ros2/install/px4_ros_com:/home/ajval/px4_ros_com_ros2/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/build/px4_ros_com
+[6.159s] -- Install configuration: ""
+[6.159s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[6.161s] -- Set non-toolchain portion of runtime path of "/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[6.161s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[6.163s] -- Set non-toolchain portion of runtime path of "/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[6.163s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[6.164s] -- Set non-toolchain portion of runtime path of "/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[6.164s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[6.165s] -- Set non-toolchain portion of runtime path of "/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[6.165s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[6.166s] -- Set non-toolchain portion of runtime path of "/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[6.166s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[6.166s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[6.166s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/include/px4_ros_com
+[6.166s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[6.166s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/libframe_transforms.so
+[6.168s] -- Set non-toolchain portion of runtime path of "/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[6.168s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com//launch
+[6.168s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[6.168s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[6.168s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com//test
+[6.168s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[6.168s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[6.168s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[6.169s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[6.169s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[6.169s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[6.169s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info
+[6.169s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/PKG-INFO
+[6.169s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/top_level.txt
+[6.169s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/dependency_links.txt
+[6.169s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/SOURCES.txt
+[6.169s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com
+[6.169s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/module_to_import.py
+[6.169s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/__init__.py
+[6.192s] Listing '/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com'...
+[6.193s] Compiling '/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/__init__.py'...
+[6.193s] Compiling '/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/module_to_import.py'...
+[6.196s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[6.196s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[6.196s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[6.196s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[6.196s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[6.196s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[6.196s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[6.197s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[6.197s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[6.197s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[6.197s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[6.197s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/package.dsv
+[6.197s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[6.197s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[6.197s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[6.197s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.197s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[6.198s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.198s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[6.198s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[6.198s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[6.198s] -- Installing: /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_ros_com/share/px4_ros_com/package.xml
+[6.199s] Invoked command in '/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs:/home/ajval/px4_ros_com_ros2/install/px4_ros_com:/home/ajval/px4_ros_com_ros2/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ajval/Digital-Twin-Cybersecurity/x500_physical_model/build/px4_ros_com

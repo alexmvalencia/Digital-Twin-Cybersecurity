@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="px4_drone">
+    <xacro:include filename="$(find x500_drone_description)/description/materials.xacro"/>
+    <xacro:include filename="$(find x500_drone_description)/description/x500.description.xacro"/>
+    
+</robot>
