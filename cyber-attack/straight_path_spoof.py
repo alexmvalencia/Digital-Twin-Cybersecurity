@@ -10,7 +10,7 @@ from mavsdk.offboard import PositionNedYaw
 # Define the log directory path relative to the script's location
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 LOG_DIR = os.path.join(BASE_DIR, "..", "flight-spoof-logs")
-LOG_FILE = os.path.join(LOG_DIR, "drone_straight_path_log_1.csv")
+LOG_FILE = os.path.join(LOG_DIR, "drone_straight_path_log_12.csv")
 
 # Ensure the log directory exists
 os.makedirs(LOG_DIR, exist_ok=True)
@@ -24,7 +24,7 @@ SPOOFED_ALT = 50.0  # Fake Altitude (meters)
 SPOOF_DISTANCE = 5.0  # Start spoofing after 5 meters
 
 # Global flag to track if spoofing is active
-is_spoofed = False
+is_spoofed = 0  # Use 0 for False and 1 for True
 
 async def track_drone():
     global is_spoofed  # Access global spoofing flag
@@ -36,17 +36,6 @@ async def track_drone():
         if state.is_connected:
             print("Drone connected!")
             break
-
-    print("Arming drone...")
-    await drone.action.arm()
-
-    print("Starting offboard mode...")
-    await drone.offboard.set_position_ned(PositionNedYaw(0.0, 0.0, -2.0, 0.0))
-    await drone.offboard.start()
-    
-    print("Moving forward by 10 meters...")
-    await drone.offboard.set_position_ned(PositionNedYaw(10.0, 0.0, -2.0, 0.0))
-    await asyncio.sleep(3)
     
     print("Tracking drone telemetry...")
 
@@ -65,15 +54,15 @@ async def track_drone():
             async for position in drone.telemetry.position():
                 async for velocity in drone.telemetry.velocity_ned():
                     
-                    # Log with correct spoofing state
+                    # Log with correct spoofing state (0 or 1)
                     log_writer.writerow([
                         datetime.now().isoformat(),
                         position.latitude_deg, position.longitude_deg, position.relative_altitude_m,
-                        SPOOFED_LAT if is_spoofed else "N/A", 
-                        SPOOFED_LON if is_spoofed else "N/A", 
-                        SPOOFED_ALT if is_spoofed else "N/A", 
+                        SPOOFED_LAT if is_spoofed == 1 else "N/A", 
+                        SPOOFED_LON if is_spoofed == 1 else "N/A", 
+                        SPOOFED_ALT if is_spoofed == 1 else "N/A", 
                         velocity.north_m_s, velocity.east_m_s, velocity.down_m_s, 
-                        is_spoofed  # Explicitly False until spoofing condition is met
+                        is_spoofed  # 0 or 1 to represent the spoofing state
                     ])
                     log_file.flush()
                     print(f"Logged: {position.latitude_deg}, {position.longitude_deg}, {position.relative_altitude_m}, is_spoofed: {is_spoofed}")
@@ -101,11 +90,11 @@ async def spoof_gps():
         async for position in drone.telemetry.position():
             
             if position.latitude_deg >= SPOOF_DISTANCE:
-                is_spoofed = True
+                is_spoofed = 1  # Set to 1 for spoofing
                 await drone.offboard.set_position_ned(PositionNedYaw(SPOOFED_LAT, SPOOFED_LON, -SPOOFED_ALT, 0.0))
                 print(f"Spoofing GPS: {SPOOFED_LAT}, {SPOOFED_LON}, {SPOOFED_ALT}")
             else:
-                is_spoofed = False  # Ensure it resets when not in spoofing range
+                is_spoofed = 0  # Set to 0 when spoofing is inactive
 
             await asyncio.sleep(1)
 
