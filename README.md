@@ -8,7 +8,8 @@ This repository contains ROS2 packages and simulation tools for developing a **c
 
 - Ubuntu 24.04 (Noble Numbat)  
 - ROS2 Jazzy Jalisco  
-- Gazebo Harmonic  
+- Gazebo Harmonic
+- PX4 Autopilot Firmware 
 - QGroundControl
 - PX4 ROS2 packages:
   - `px4_msgs`
