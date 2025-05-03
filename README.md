@@ -45,6 +45,10 @@ Start PX4 Physical Drone
 cd PX4-Autopilot
 make px4_sitl gz_X500
 ```
+Start MicroXRCE Agent on PX4 Drone over UDP on port 8888
+```bash
+MICROXRCEAgent udp4 -p 8888
+```
 
 ## 📚 References & Dependencies
 
