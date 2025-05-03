@@ -64,6 +64,6 @@ The following open-source tools and frameworks were essential to the development
   - **[`px4_msgs`](https://github.com/PX4/px4_msgs)** – ROS2 message definitions used in PX4.
   - **[`px4_ros_com`](https://github.com/PX4/px4_ros_com)** – Communication interface between PX4 and ROS2.
   - **[`px4_offboard`](https://github.com/PX4/px4_offboard)** – Tools for executing offboard control through ROS2.
-  - **[MICRO XRCE-DDS Agent](https://github.com/eProsima/Micro-XRCE-DDS-Agent)** – Lightweight DDS middleware used to enable efficient communication between PX4 firmware and ROS2 over resource-constrained links.
+- **[MICRO XRCE-DDS Agent](https://github.com/eProsima/Micro-XRCE-DDS-Agent)** – Lightweight DDS middleware used to enable efficient communication between PX4 firmware and ROS2 over resource-constrained links.
 
 These tools collectively supported the development, simulation, visualization, and real-time spoof detection capabilities of the digital twin system.
