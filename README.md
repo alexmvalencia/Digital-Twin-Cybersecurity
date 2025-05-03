@@ -7,7 +7,6 @@ ROS2 Packages for simulating the digital twin for Holybro PX4 Quad Drone for cyb
 - ROS2 Jazzy
 - Gazebo Harmonic
 
-![px4 drone rviz](./images/px4_drone_rviz.png)
 ### Digital Twin Behavior (Simulation)
 ![Digital Twin](./images/DigitalTwinGIF.GIF)
 
@@ -45,3 +44,7 @@ git clone https://github.com/mavlink/qgroundcontrol.git
 source install/setup.bash
 ros2 launch x500_drone_description x500_drone_display.launch.py
 ```
+
+![px4 drone rviz](./images/px4_drone_rviz.png)
+
+
