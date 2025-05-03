@@ -9,7 +9,12 @@ This repository contains ROS2 packages and simulation tools for developing a **c
 - Ubuntu 24.04 (Noble Numbat)  
 - ROS2 Jazzy Jalisco  
 - Gazebo Harmonic  
-- QGroundControl  
+- QGroundControl
+- PX4 ROS2 packages:
+  - `px4_msgs`
+  - `px4_ros_com`
+  - `px4_offboard`
+
 
 ---
 
