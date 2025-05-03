@@ -23,6 +23,10 @@ This repository contains ROS2 packages and simulation tools for developing a **c
 
 ![Digital Twin](./images/DigitalTwinGIF.GIF)
 
+'''
+sudo apt update
+'''
+
 ---
 
 ## 🚁 Physical Drone Reaction (Real Flight)
@@ -51,5 +55,3 @@ The following open-source tools and frameworks were essential to the development
   - **[`px4_offboard`](https://github.com/PX4/px4_offboard)** – Tools for executing offboard control through ROS2.
 
 These tools collectively supported the development, simulation, visualization, and real-time spoof detection capabilities of the digital twin system.
-
-
