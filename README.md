@@ -50,6 +50,36 @@ Start MicroXRCE Agent on PX4 Drone over UDP on port 8888
 ```bash
 MICROXRCEAgent udp4 -p 8888
 ```
+Connect to the drone in QGC to simulation drone over port 14550
+Setup a flight path in QGC and start flight
+
+Go into cyber-attack directory
+```bash
+cd Digital-Cybersecurity
+cd cyber-attack
+```
+
+Choose coordinates in script to change spoof latitude, longitude, and altitude
+![image](https://github.com/user-attachments/assets/a671411e-d7fe-4b0a-8333-4d1f570ee1ee)
+
+Run digital twin predictive model
+```bash
+cd Digital-Cybersecurity/predictive-ml
+source ~/venv/bin/activate
+cd Digital-Cybersecurity/predictive-ml
+./gps_spoof_prediction_model.py
+```
+
+```bash
+cd Digital-Cybersecurity/x500_model
+. install/setup.bash
+ros2 launch  px4_offbaord visualize.launch.py
+```
+
+While drone is in flight, run spoof attack as executable
+```bash
+Digital-Cybersecurity/cyber-attack/gps_spoof.py
+```
 
 ## 📚 References & Dependencies
 
@@ -66,4 +96,4 @@ The following open-source tools and frameworks were essential to the development
   - **[`px4_offboard`](https://github.com/PX4/px4_offboard)** – Tools for executing offboard control through ROS2.
 - **[MICRO XRCE-DDS Agent](https://github.com/eProsima/Micro-XRCE-DDS-Agent)** – Lightweight DDS middleware used to enable efficient communication between PX4 firmware and ROS2 over resource-constrained links.
 
-These tools collectively supported the development, simulation, visualization, and real-time spoof detection capabilities of the digital twin system.
+These tools collectively supported the development, simulation, visualization, and real-time spoof detection capabilities of the digital twin framework.
