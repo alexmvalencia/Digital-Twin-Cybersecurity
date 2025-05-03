@@ -23,9 +23,10 @@ This repository contains ROS2 packages and simulation tools for developing a **c
 
 ![Digital Twin](./images/DigitalTwinGIF.GIF)
 
-'''
-sudo apt update
-'''
+Start QGroundControl
+```bash
+./QGroundControl.AppImage
+```
 
 ---
 
