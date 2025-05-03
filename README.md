@@ -8,8 +8,12 @@ ROS2 Packages for simulating the digital twin for Holybro PX4 Quad Drone for cyb
 - Gazebo Harmonic
 
 ![px4 drone rviz](./images/px4_drone_rviz.png)
-![px4 drone rviz](./images/DigitalTwinGIF.GIF)
-![px4 drone rviz](./images/PhysicalGIF.gif)
+### Digital Twin Behavior (Simulation)
+![Digital Twin](./images/DigitalTwinGIF.GIF)
+
+### Physical Drone Reaction (Real Flight)
+![Physical Drone](./images/PhysicalGIF.gif)
+
 
 ## Usage
 To visualize the drone in rviz without the connection
