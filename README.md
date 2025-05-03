@@ -81,6 +81,10 @@ While drone is in flight, run spoof attack as executable
 Digital-Cybersecurity/cyber-attack/gps_spoof.py
 ```
 
+Drone will be spoofed and predict attack
+The drone will hover in response
+Complete!
+
 ## 📚 References & Dependencies
 
 The following open-source tools and frameworks were essential to the development of this digital twin cybersecurity project:
