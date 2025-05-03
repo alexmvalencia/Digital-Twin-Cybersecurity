@@ -35,11 +35,6 @@ This repository contains ROS2 packages and simulation tools for developing a **c
 
 To visualize the PX4 drone model in **RViz** without connecting to the physical drone:
 
-```bash
-source install/setup.bash
-ros2 launch x500_drone_description x500_drone_display.launch.py
-'''
----
 
 ## 📚 References & Dependencies
 
