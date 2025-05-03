@@ -23,11 +23,6 @@ This repository contains ROS2 packages and simulation tools for developing a **c
 
 ![Digital Twin](./images/DigitalTwinGIF.GIF)
 
-Start QGroundControl
-```bash
-./QGroundControl.AppImage
-```
-
 ---
 
 ## 🚁 Physical Drone Reaction (Real Flight)
@@ -38,8 +33,18 @@ Start QGroundControl
 
 ## 🚀 Usage
 
-To visualize the PX4 drone model in **RViz** without connecting to the physical drone:
+To visualize the PX4 drone model
 
+Start QGroundControl
+```bash
+./QGroundControl.AppImage
+```
+
+Start PX4 Physical Drone
+```bash
+cd PX4-Autopilot
+make px4_sitl gz_X500
+```
 
 ## 📚 References & Dependencies
 
